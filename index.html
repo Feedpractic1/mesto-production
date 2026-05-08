@@ -53,7 +53,7 @@
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
                 minlength="2"
                 maxlength="40"
-                pattern="^(?=.*[A-Za-zА-Яа-яЁё])[A-Za-zА-Яа-яЁё\s-]+$"
+                pattern="(?=.*[a-zA-Zа-яА-ЯёЁ])[a-zA-Zа-яА-ЯёЁ\s\-]+"
                 required
               />
               <span class="popup__error" id="user-name-error"></span>
@@ -97,7 +97,7 @@
                 data-error-message="Разрешены только латинские, кириллические буквы, знаки дефиса и пробелы"
                 minlength="2"
                 maxlength="30"
-                pattern="^(?=.*[A-Za-zА-Яа-яЁё])[A-Za-zА-Яа-яЁё\s-]+$"
+                pattern="(?=.*[a-zA-Zа-яА-ЯёЁ])[a-zA-Zа-яА-ЯёЁ\s\-]+"
                 required
               />
               <span class="popup__error" id="place-name-error"></span>
